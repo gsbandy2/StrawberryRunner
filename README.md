@@ -4,14 +4,13 @@ This project builds an end-to-end Convolutional Neural Network (CNN) to automati
 ## Structure 
 
 strawberry_runner_classification/
-│
-├── dataset/
-│ ├── runner/ # Images of strawberry runners
-│ └── non_runner/ # Images without runners
-│
-├── strawberry_runner_classifier.h5 # Trained model
-├── strawberry_runner_classifier.py # Full machine learning pipeline
-└── README.md
+- strawberry_runner_classification/
+  - dataset/
+    - runner/ (Images of strawberry runners)
+    - non_runner/ (Images without runners)
+  - strawberry_runner_classifier.h5 (Trained model)
+  - strawberry_runner_classifier.py (Full machine learning pipeline)
+  - README.md
 
 ## Key Features
 
